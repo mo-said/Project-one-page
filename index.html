@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Demofinf</title>
+      <!-- links link -->
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- css -->
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <!-- font-awesome -->
+      <link rel="stylesheet" href="css/fonts/font-awesome.css">
+      <link rel="stylesheet" href="css/pe-icon-7-weather/css/pe-icon-7-weather.css">
+      <!-- Optional - Adds useful class to manipulate icon font display -->
+      <link rel="stylesheet" href="css/pe-icon-7-weather/css/helper.css">
+      <!-- jquery -->
+   </head>
+   <body>
+      <!-- ######################-->
+      <!-- header one -->
+      <!-- ######################-->
+      <header>
+         <div class="header-nav">
+            <div class="container">
+               <div class="row">
+                  <!-- left social media -->
+                  <div class="col-xs-6">
+                     <div id="social">
+                        <a class="facebookBtn smGlobalBtn" href="#"></a>
+                        <a class="twitterBtn smGlobalBtn" href="#"></a>
+                        <a class="googleplusBtn smGlobalBtn" href="#"></a>
+                        <a class="rssBtn smGlobalBtn" href="#"></a>
+                        <a class="tumblrBtn smGlobalBtn" href="#"></a>
+                        <a class="pinterestBtn smGlobalBtn" href="#"></a>
+                     </div>
+                  </div>
+                  <!-- right header -->
+                  <div class="col-xs-6">
+                     <ul class="ul-header list-inline" style="">
+                        <li>
+                           <a href="" class="text-hd"><i class="icon-header-one fa fa-user" aria-hidden="true" ></i><span>تسجيل دخول</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="" class="text-hd"><i class="icon-header-one fa fa-user-plus" aria-hidden="true" ></i><span>عضو جديد</span></a>
+                        </li>
+                        <li class="li-ul-header dropdown" style="">
+                           <a href="#" class="dropdown-toggle text-hd" data-toggle="dropdown">اللغة العربية<b class="caret"></b></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="?lang=arb" class="active">arabic</a></li>
+                              <li><a href="?lang=eng">English</a></li>
+                              </li>
+                           </ul>
+                     </ul>
+                  </div>
+                  <!--  -->
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ######################-->
+      <!-- //End header one -->
+      <!-- ######################-->
+      <!-- ######################-->
+      <!-- Nav bar -->
+      <!-- ######################-->
+      <nav id="global-nav" class="navbar navbar-inverse" role="navigation">
+         <div class="container">
+            <a class="navbar-brand navbar-right" href="#">
+            <img class="logo-dimo" src="img/logo.png" />
+            </a>
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav ">
+                  <li class="link-nav "><a href="#">اتصل بنا</a></li>
+                  <li class="link-nav "><a href="#">التوظيف</a></li>
+                  <li class="link-nav "><a href="#">قائمة العملاء</a></li>
+                  <li class="link-nav "><a href="#">عروض خاصة</a></li>
+                  <li class="link-nav "><a href="#">خدمات الشركة</a></li>
+                  <li class="link-nav "><a href="#">عن الشركة</a></li>
+                  <li class="link-nav active"><a href="#">الرئيسية</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- ######################-->
+      <!--// End Nav bar -->
+      <!-- ######################-->
+      <!-- ######################-->
+      <!-- Section one -->
+      <!-- ######################-->
+      <div class="container-fluid">
+         <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+               <ol class="coverSite carousel-indicators">
+                  <li class="sliderPoint" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li class="sliderPoint" data-target="#myCarousel" data-slide-to="1"></li>
+                  <li class="sliderPoint" data-target="#myCarousel" data-slide-to="2"></li>
+               </ol>
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner">
+                  <!-- item -->
+                  <div class="item active">
+                     <div class="business__overlay">
+                     </div>
+                     <img src="img/Cover-header.jpg" alt="Los Angeles" class="image-section1">
+                     <div class="carousel-caption">
+                        <h3 class="text-slider">مصصم مبدع ؟ طموح ؟لا يرضيك سوى الافضل <br/> انضم لفريق العمل معنا</h3>
+                        <!-- test -->
+                        <div class="search">
+                           <form action="#" method="post">
+                              <input type="search" class="form-control" placeholder="مصمم ويب , مبرمج , ادارة سيرفرات" />
+                              <div class="input-group search-btn-group">
+                                 <div class="input-group-btn">
+                                    <button type="button" class="btn-search btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>تخصص</button>
+                                    <ul class="dropdown-menu" role="menu">
+                                       <li><a href="#">مصمم ويب</a></li>
+                                       <li><a href="#">مبرمج</a></li>
+                                    </ul>
+                                    <button type="button" class="btn-seach2 btn btn-default">بحث </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <!-- // End test -->
+                     </div>
+                  </div>
+                  <!-- item -->
+                  <div class="item">
+                     <div class="business__overlay">
+                     </div>
+                     <img src="img/Cover-header.jpg" alt="Chicago" class="image-section1">
+                     <div class="carousel-caption">
+                        <h3 class="text-slider">مصصم مبدع ؟ طموح ؟لا يرضيك سوى الافضل <br/> انضم لفريق العمل معنا</h3>
+                        <!-- test -->
+                        <div class="search">
+                           <form action="#" method="post">
+                              <input type="search" class="form-control" placeholder="مصمم ويب , مبرمج , ادارة سيرفرات" />
+                              <div class="input-group search-btn-group">
+                                 <div class="input-group-btn">
+                                    <button type="button" class="btn-search btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>تخصص</button>
+                                    <ul class="dropdown-menu" role="menu">
+                                       <li><a href="#">مصمم ويب</a></li>
+                                       <li><a href="#">مبرمج</a></li>
+                                    </ul>
+                                    <button type="button" class="btn-seach2 btn btn-default">بحث </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <!-- // End test -->
+                     </div>
+                  </div>
+                  <!-- End item -->
+                  <!-- item -->
+                  <div class="item">
+                     <div class="business__overlay">
+                     </div>
+                     <img src="img/Cover-header.jpg" alt="New York" class="image-section1">
+                     <div class="carousel-caption">
+                        <h3 class="text-slider">مصصم مبدع ؟ طموح ؟لا يرضيك سوى الافضل <br/> انضم لفريق العمل معنا</h3>
+                        <!-- test -->
+                        <div class="search">
+                           <form action="#" method="post">
+                              <input type="search" class="form-control" placeholder="مصمم ويب , مبرمج , ادارة سيرفرات" />
+                              <div class="input-group search-btn-group">
+                                 <div class="input-group-btn">
+                                    <button type="button" class="btn-search btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>تخصص</button>
+                                    <ul class="dropdown-menu" role="menu">
+                                       <li><a href="#">مصمم ويب</a></li>
+                                       <li><a href="#">مبرمج</a></li>
+                                    </ul>
+                                    <button type="button" class="btn-seach2 btn btn-default">بحث </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <!-- // End test -->
+                     </div>
+                  </div>
+                  <!-- End item -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ######################-->
+      <!-- //End Section one -->
+      <!-- ######################-->
+      <!-- ######################-->
+      <!-- Section two -->
+      <!-- ######################-->
+      <section class="section2">
+         <div class="container">
+            <div class="row">
+               <!-- right part -->
+               <div class="col-md-8 pull-right">
+                  <div class="box-comment">
+                     <div class="no-padding container-fluid">
+                        <img class="img-right-part" src="img/section-2 header.jpg">
+                        <div class="ex-padding-right-part text-box">
+                           <p class="head">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص </p>
+                           <p class="text-box-p">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل افتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، </p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-xs-4 see-more"><a href="">أكمل القراءة</a></div>
+                        <div class="col-xs-8">
+                           <p class="active-comment"><i class="fa fa-user-o" aria-hidden="true"></i>محمد سعيد</p>
+                           <p class="active-comment"><i class="fa fa-comments-o" aria-hidden="true"></i>105</p>
+                           <p class="active-comment"><i class="fa fa-heart-o" aria-hidden="true"></i>185</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End right part -->
+               <div class="col-md-4 ">
+                  <div class="row">
+                     <div class="col-xs-12 pull-left">
+                        <div class="box-comment-lf1 box-comment">
+                           <div class="no-padding container-fluid">
+                              <img class="img-lf-part1" src="img/left-img.jpg">
+                              <div class="text-box no-border">
+                                 <p class="head">خلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً</p>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xs-4 see-more"><a class="dimo-btn btn btn-default" href="">احجز الان</a></div>
+                              <div class="col-xs-8 bottom-lf-part1">
+                                 <p class="active-comment"><span>$450</span> - 10 Days</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second part -->
+                  <div class="lf-part2 row">
+                     <div class="col-xs-12 pull-left">
+                        <div class="box-comment-lf2 box-comment">
+                           <div class="no-padding container-fluid">
+                              <div class='wrapper'>
+                                 <!-- image -->
+                                 <!-- description div -->
+                                 <div class='img-lf-part2 description'>
+                                    <!-- description content -->
+                                    <div class="overlay over-part2"></div>
+                                    <div class='description_content'>
+                                       <div class="col-xs-10">
+                                          <span><a class="calender-btn btn btn-default" href="" >حدثنا القادم</a></span>
+                                          <br>
+                                          <p>خلافاَ للاعتقاد السائد فإن لوريم إيبسوم</p>
+                                       </div>
+                                       <div class="col-xs-2">
+                                          <span class="text-calender">4</span>
+                                          <br>
+                                          <p>اكتوبر</p>
+                                       </div>
+                                    </div>
+                                    <!-- end description content -->
+                                 </div>
+                                 <!-- end description div -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ######################-->
+      <!-- // End Section two -->
+      <!-- ######################-->
+      <!-- ######################-->
+      <!-- section three -->
+      <!-- ######################-->
+      <section class="section2">
+         <div class="container">
+            <div class="row">
+               <!-- right part -->
+               <div class="col-md-8 col-xs-12 pull-right">
+                  <div class="box-comment-sc3 box-comment">
+                     <div class="contain-sc3 container-fluid">
+                        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                           <!-- Indicators -->
+                           <ol class="gallerySection carousel-indicators">
+                              <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel2" data-slide-to="1"></li>
+                              <li data-target="#myCarousel2" data-slide-to="2"></li>
+                           </ol>
+                           <!-- Wrapper for slides -->
+                           <div class="carousel-inner">
+                              <div class="item active">
+                                 <div class="container-fluid">
+                                    <div class="position-row row">
+                                       <!-- item img slid-->
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/1.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/1.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/2.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/2.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6 hidden-xs">
+                                          <div class="box-img-slid">
+                                             <img src="img/3.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/3.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/4.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/4.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/5.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/5.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6 hidden-xs">
+                                          <div class="box-img-slid">
+                                             <img src="img/6.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/6.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- second slide -->
+                              <div class="item">
+                                 <div class="container-fluid">
+                                    <div class="row">
+                                       <!-- item img slid-->
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/1.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/1.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/2.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/2.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6 hidden-xs">
+                                          <div class="box-img-slid">
+                                             <img src="img/3.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/3.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-md-4 col-xs-6 hidden-xs">
+                                          <div class="box-img-slid">
+                                             <img src="img/4.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/4.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/5.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/5.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4 col-xs-6">
+                                          <div class="box-img-slid">
+                                             <img src="img/6.jpeg" alt="Avatar" class="image-slid" style="">
+                                             <div class="middle">
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;">
+                                                   <i class="fa fa-reply" aria-hidden="true"></i></a>
+                                                </p>
+                                                <p class="text-box-img-slid">
+                                                   <a href="javascript:;" class="pop">
+                                                   <img src="img/6.jpeg" alt="Avatar" class="image-slid" style="display: none">
+                                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                                   </a>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- <div class="item">
+                                 <img src="http://images.lulushark.com/content-images/Love%20Images/Love%20Imge%20022.jpg" alt="Chicago" style="width:80%;">
+                                 </div> -->
+                           </div>
+                           <!-- Left and right controls -->
+                           <div class="div-color">
+                              <div class="button-gallery">
+                                 <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                                 <span class="glyphicon glyphicon-chevron-left"></span>
+                                 <span class="sr-only">Previous</span>
+                                 </a>
+                                 <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                                 <span class="glyphicon glyphicon-chevron-right"></span>
+                                 <span class="sr-only">Next</span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End right part -->
+               <div class="col-md-4 ">
+                  <div class="row">
+                     <div class="col-xs-12 pull-left">
+                        <div class="box-comment-weather box-comment">
+                           <div class="no-padding container-fluid">
+                              <div class="no-border text-box">
+                                 <p class="head head-weather"> حالة الطقس اليوم </p>
+                                 <p class="head head-weather-color"><i class="fa fa-map-marker" aria-hidden="true"></i>مصر , مدينة نصر</p>
+                              </div>
+                              <div class="btn-group weather btngroup-weather" data-toggle="buttons" style="">
+                                 <label class="btn-weather btn btn-default" target="1">
+                                 <input type="radio" id="q156" name="" />الثلاثاء
+                                 </label>
+                                 <label class="btn-weather btn btn-default" target="2">
+                                 <input type="radio" id="q157" name="" /> الاتنين
+                                 </label>
+                                 <label class="btn-weather btn btn-default active" target="3">
+                                 <input type="radio" id="q158" name="" /> اليوم
+                                 </label>
+                              </div>
+                              <div class="weather-image">
+                                 <img class="img-weather" src="img/new_weather.jpeg">
+                                 <div class="weather-text">
+                                    <h1 id="div1" class="targetDiv"><i class="pe-7w-cloud-sun pe-lg pe-va"></i>  28&#176; </h1>
+                                    <h1 id="div2" class="targetDiv"><i class="pe-7w-hail pe-lg pe-va"></i>  35&#176; </h1>
+                                    <h1 id="div3" class="targetDiv"><i class="pe-7w-download pe-lg pe-va"></i>  18&#176; </h1>
+                                 </div>
+                              </div>
+                              <div style="" class="text-box-weather text-box">
+                                 <div class="btm-weather">
+                                    <div class="btm-weather-item col-xs-4">
+                                       <h1><i class="pe-7w-cloud pe-lg pe-va"></i></h1>
+                                       <p>Mon</p>
+                                    </div>
+                                    <div class="btm-weather-item active col-xs-4">
+                                       <h1><i class="pe-7w-hail pe-lg pe-va"></i></h1>
+                                       <p>Wed</p>
+                                    </div>
+                                    <div class="btm-weather-item col-xs-4">
+                                       <h1><i class="pe-7w-download pe-lg pe-va"></i></h1>
+                                       <p>Fri</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ######################-->
+      <!--// End section three -->
+      <!-- ######################-->
+      <!-- ######################-->
+      <!-- table dimofinf -->
+      <!-- ######################-->
+      <div class="container">
+         <div class="bs-example">
+            <table class="table">
+               <thead>
+                  <tr>
+                     <th>
+                        <div>
+                           <input id="check" name="check" type="checkbox" />
+                        </div>
+                     </th>
+                     <th>الحالة</th>
+                     <th>الاسم</th>
+                     <th>البريد الالكترونى</th>
+                     <th>اخر نشاط</th>
+                     <th>تاريخ التسجيل</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="active">
+                     <td>
+                        <input id="check" name="check" type="checkbox" />
+                     </td>
+                     <td><del>موقوف</del></td>
+                     <td>محمد</td>
+                     <td>mail@gmail.com</td>
+                     <td>sep 18,2013</td>
+                     <td>sep 15,2013</td>
+                  </tr>
+                  <tr class="active">
+                     <td>
+                        <input id="check" checked name="check" type="checkbox" />
+                     </td>
+                     <td>نشط</td>
+                     <td>محمد</td>
+                     <td>mail@gmail.com</td>
+                     <td>sep 18,2013</td>
+                     <td>sep 15,2013</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <input id="check" name="check" type="checkbox" />
+                     </td>
+                     <td><del>موقوف</del></td>
+                     <td>محمد</td>
+                     <td>mail@gmail.com</td>
+                     <td>sep 18,2013</td>
+                     <td>sep 15,2013</td>
+                  </tr>
+                  <tr class="active">
+                     <td>
+                        <input id="check" checked name="check" type="checkbox" />
+                     </td>
+                     <td>نشط</td>
+                     <td>محمد</td>
+                     <td>mail@gmail.com</td>
+                     <td>sep 18,2013</td>
+                     <td>sep 18,2013</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <input id="check" checked name="check" type="checkbox" />
+                     </td>
+                     <td>نشط</td>
+                     <td>محمد</td>
+                     <td>mail@gmail.com</td>
+                     <td>sep 18,2013</td>
+                     <td>sep 15,2013</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <!-- ######################-->
+      <!-- // End table dimofinf -->
+      <!-- ######################-->
+      <!-- box model -->
+      <div style="top: 50px;" class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <img src="" class="imagepreview" style="width: 100%;">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- box model -->
+      <!-- ######################-->
+      <!-- Footer -->
+      <!-- ######################-->
+      <footer class="footer-dimo">
+         <center>جميع الحقوق محفوظة لشركة ديموفنف &copy; 2017</center>
+      </footer>
+      <!-- ######################-->
+      <!--End  Footer -->
+      <!-- ######################-->
+      <!-- Return to Top -->
+      <a href="javascript:;" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      <!-- javascript -->
+      <script src="js/js-main.js"></script>
+   </body>
+</html>
