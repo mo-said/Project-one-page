@@ -1,4 +1,3 @@
-# dimofinf-task
 FRONT END
 ###### HTML
 ###### CSS
